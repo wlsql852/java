@@ -6,13 +6,26 @@ class Java106 {
   } 
 }
 
+// 본래 코드
+// class P106_00 {
+//   static void f() {
+//     String a = "Hello World!";
+//     System.out.println(a);
+//     f();
+//   }
+//   public static void main(String[] args) {
+//       f();
+//   }
+// }
+
+
 class P106_00 {
-  void f() {                                                       //static void f() {
+  void f() {
     String a = "Hello World!";
     System.out.println(a);
     f();
   }
-  void main_() {                                                   //public static void main(String[] args){
+  void main_() {
     f();
   }
 }
