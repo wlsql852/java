@@ -128,3 +128,4 @@ class PriorityQueue {
 
 class EmptyPriorityQueueException extends RuntimeException {
 }
+
